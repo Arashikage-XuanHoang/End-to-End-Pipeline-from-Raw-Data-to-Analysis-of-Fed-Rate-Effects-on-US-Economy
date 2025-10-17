@@ -1,4 +1,4 @@
-# End-to-End Pipeline: Phân tích ảnh hưởng của Fed Funds Rate 🇺🇸💹
+# End-to-End Pipeline: Phân tích ảnh hưởng của Fed Funds Rate lên nền kinh tế Hoa Kỳ
 
 ![Python](https://img.shields.io/badge/Python-3.12-blue)
 ![Airflow](https://img.shields.io/badge/Airflow-2.x-orange)
