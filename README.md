@@ -32,9 +32,6 @@ Pipeline được chia làm 3 giai đoạn chính theo kiến trúc Medallion:
 ---
 
 ## 🗂️ Cấu trúc thư mục
-
-Để tạo ra cấu trúc cây như bên dưới, bạn chỉ cần đặt văn bản đã định dạng vào trong một khối code (sử dụng dấu ```).
-
 ```
 .
 ├── dags/                  # Nơi chứa các file DAGs của Airflow
