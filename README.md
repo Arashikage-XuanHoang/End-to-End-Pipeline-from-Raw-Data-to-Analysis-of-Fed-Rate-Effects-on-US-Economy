@@ -1,7 +1,7 @@
 # End-to-End Pipeline: Phân tích ảnh hưởng của Fed Funds Rate lên nền kinh tế Hoa Kỳ
 
 ![Python](https://img.shields.io/badge/Python-3.12-blue)
-![Airflow](https://img.shields.io/badge/Airflow-2.x-orange)
+![Airflow](https://img.shields.io/badge/Airflow-3.1.x-orange)
 ![Docker](https://img.shields.io/badge/Docker-✓-blue)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-✓-blue)
 ![MinIO](https://img.shields.io/badge/MinIO-✓-green)
@@ -58,7 +58,7 @@ Pipeline được chia làm 3 giai đoạn chính theo kiến trúc Medallion:
 
 2.  **Khởi chạy các service với Docker Compose:**
     ```bash
-    docker-compose up -d
+    docker compose up -d
     ```
     Lệnh này sẽ khởi tạo các container cho Airflow (webserver, scheduler, worker), PostgreSQL và MinIO.
 
