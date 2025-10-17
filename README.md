@@ -54,7 +54,7 @@ Pipeline được chia làm 3 giai đoạn chính theo kiến trúc Medallion:
 
 1.  **Clone repository:**
     ```bash
-    git clone [<your-repository-url>](https://github.com/Arashikage-XuanHoang/End-to-End-Pipeline-from-Raw-Data-to-Analysis-of-Fed-Rate-Effects-on-US-Economy)
+    git clone https://github.com/Arashikage-XuanHoang/End-to-End-Pipeline-from-Raw-Data-to-Analysis-of-Fed-Rate-Effects-on-US-Economy
     cd Airflow_docker
     ```
 
@@ -72,7 +72,7 @@ Pipeline được chia làm 3 giai đoạn chính theo kiến trúc Medallion:
 4.  **Kích hoạt DAGs:**
     Trên giao diện Airflow, bạn sẽ thấy các DAGs đã được định nghĩa trong thư mục `dags/`. Bật các DAGs để bắt đầu chạy pipeline.
 
-5.  ** Key Features:**
+5.  **Key Features:**
     * **Bronze Layer**: Lưu dữ liệu raw từ CSV → MinIO → Postgres
     * **Silver Layer**: Xử lý, merge dữ liệu
     * **Gold Layer**: Tạo dimension & fact tables cho phân tích
