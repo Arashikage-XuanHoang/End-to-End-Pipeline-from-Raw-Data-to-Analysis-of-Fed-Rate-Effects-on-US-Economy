@@ -40,6 +40,9 @@ Pipeline được chia làm 3 giai đoạn chính theo kiến trúc Medallion:
 │   ├── data_bronze_to_tmp_airflow.py
 │   └── read_transform_load_postgres.py
 ├── config/                # Chứa các file cấu hình của Airflow (airflow.cfg)
+├── data
+|    ├── bronze data
+|    └── silver data
 ├── docker-compose.yaml    # File định nghĩa các service để chạy local (Airflow, Postgres, MinIO)
 ├── requirements.txt       # Danh sách các thư viện Python cần thiết
 ├── .gitignore             # Các file và thư mục được Git bỏ qua
